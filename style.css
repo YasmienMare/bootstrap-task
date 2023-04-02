@@ -1,0 +1,99 @@
+/* css code for chat page */
+
+body{
+background-color:#c5d8d8 ;
+}
+
+/* Start header */
+
+.header{
+    background: white;
+    margin-bottom: 10px;
+}
+
+.titleHeader{
+    padding: 20px;
+}
+
+/* start listFriend */
+
+.listFriend{
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 105px);
+    width: 100%;
+    border-radius: 10px;
+}
+
+input[type=search]{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: none;
+    outline: none;
+    background-color: #e9ecef;
+    height: 40px;
+    width: 90%;
+}
+.imageFriend{
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    position:relative;
+    background-image: url('images/team3.jpg');
+    background-position: center;
+    background-size:cover ;
+}
+
+
+/* End listFriend */
+/* Start chat Box */
+.chatBox{
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 105px);
+    width: 100%;
+    border-radius: 10px;
+}
+.hearerChat{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e9ecef;
+    width: 100%;
+}
+
+.chatImage{
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+}
+.chatFooter{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+}
+.messageContent{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    width: auto;
+
+}
+.messageContentRight{
+    background-color: aliceblue;
+    direction: rtl;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.messageDate{
+    font-size: 11px;
+}
+.chatContent{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 85%;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <title>Chat Page</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="titleHeader">Chatting</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- list Friends -->
+            <div class="col-lg-3">
+            
+                <div class="list-group listFriend">
+                    <input type="search" value="Search Friends" name="search" class="form-control"/>
+                    <ul class="list-group  list-group-item-action">
+
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-success rounded-circle"></span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-success rounded-circle"></span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-success rounded-circle"></span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-danger rounded-circle"> </span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                       
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-success rounded-circle"></span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-success rounded-circle"></span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-success rounded-circle"></span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                        <li class="list-group-item list-group-item-action" >
+                            <div class="row align-items-center">
+
+                                <div class="col-3 imageFriend">
+                                    <span class="position-absolute top-100 start-100 translate-middle p-1 bg-danger rounded-circle"> </span>
+                                </div>
+
+                                <div class="col-7"> Ahmad Ahmad</div>
+                                <div class="col-2"><span class="badge bg-primary">4</span></div>
+                             </div>
+                            
+                        </li>
+                      
+                       
+                      </ul>
+                </div>
+            </div>
+            
+            <!-- chat box -->
+            <div class="col-lg-9">
+                <div class="chatBox position-relative">
+                    <div class="hearerChat">
+                        <div class="col-8">
+                            <img src="images/team3.jpg" class="chatImage" alt="Friend Image">
+                        
+                           <span class="p-2 fw-bold">Ahmad Ahmad</span>  
+                        </div>
+                        <div class="chatIcon col-4 text-end">
+                            <button class="btn"><i class="fa fa-phone"></i></button>
+                            <button class="btn"><i class="fa fa-camera"></i></button>
+                            
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="chatContent">
+                        <div class="row">
+                            <div class="messageContent ">
+                                <div class="message"> 
+                                    What is Lorem Ipsum?
+                                </div>
+                                <div class="messageDate">
+                                    <small class=" text-muted">10:12 AM, Today</small>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        <div class="row">
+                            <div class="messageContent  messageContentRight">
+                                <div class="message "> 
+                                    Lorem Ipsum is simply dummy text of the printing 
+                                </div>
+                                <div class="messageDate">
+                                    <small class=" text-muted">10:12 AM, Today</small>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        <div class="row">
+                            <div class="messageContent ">
+                                <div class="message "> 
+                                    It is a long established fact that a reader will be distracted by the readable 
+                                </div>
+                                <div class="messageDate">
+                                    <small class=" text-muted">10:12 AM, Today</small>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        <div class="row">
+                            <div class="messageContent messageContentRight">
+                                <div class="message"> 
+                                    It is a long established fact that a reader will be distracted by the readable 
+                                </div>
+                                <div class="messageDate">
+                                    <small class=" text-muted">10:12 AM, Today</small>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        <div class="row">
+                            <div class="messageContent ">
+                                <div class="message "> 
+                                    Lorem Ipsum
+                                </div>
+                                <div class="messageDate">
+                                    <small class=" text-muted">10:12 AM, Today</small>
+                                </div>
+                            </div>
+                                
+                        </div>
+                         <div class="row">
+                            <div class="messageContent messageContentRight">
+                                <div class="message "> 
+                                    Lorem Ipsum is simply dummy text of the printing 
+                                </div>
+                                <div class="messageDate">
+                                    <small class=" text-muted">10:12 AM, Today</small>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        
+                            
+                    </div>
+
+                    <div class="chatFooter">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="type message ..." aria-label="type message ...">
+                            <span class="input-group-text"><i class="fa fa-share-alt"></i></span>
+                            <button class="btn btn-primary" type="button"><i class="fa fa-send"></i></button>
+                        </div>
+
+                    </div>
+
+                </div>    
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
